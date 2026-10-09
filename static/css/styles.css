@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* fondo */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #1e3a5f, #3b82a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.tarjeta {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    border-top: 6px solid #f59e0b;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    width: 340px;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-top: 0;
+}
+
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+    margin-top: 0.3rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #f59e0b;
+}
+
+
+button {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f59e0b;
+}
+
+
+
+
+/* enlacs y texto de abajo del formulario */
+.tarjeta p {
+    text-align: center;
+}
+
+a {
+    color: #1e3a5f;
+    font-weight: 600;
+}
+
+/*mensajes de error o aviso */
+.mensaje {
+    background: #fef3c7;
+    padding: 0.6rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
